@@ -7,9 +7,15 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-color: #9cb0d1;
   color: #212121;
   line-height: 1.5;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  height: 100vh;
+    background-image: radial-gradient(circle closest-corner at 5% 5%, rgb(22, 21, 28) 10%, transparent 70%);
+  background-size: 20px 20px;
 }
 
 #search-box {
@@ -17,4 +23,11 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+ 
+}
+
+.country-flags {
+  font-size: 30px;
+  list-style: none;
+  line-height: 1.8;
 }
